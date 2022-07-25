@@ -1,1 +1,4 @@
+#!/bin/bash
 
+wt_basecalled_fast5=path_to_basecalled_fast5_files
+ko_bsecalled_fast5=path_to_basecalled_fast5_files
