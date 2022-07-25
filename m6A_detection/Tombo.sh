@@ -21,9 +21,12 @@ tombo detect_modifications de_novo --fast5-basedirs $wt_fast5/workspace \
 --processes 16
 
 #output statistical results
+
 tombo text_output browser_files --fast5-basedirs $wt_fast5/workspace \
 --statistics-filename wt.tombo.stats \
---browser-file-basename wt \
+--browser-file-basename wt_rrach \
+--genome-fasta $ref \
+--motif-descriptions RRACH:3:m6A \
 --file-types coverage dampened_fraction fraction \
 --corrected-group RawGenomeCorrected_000
 
