@@ -14,9 +14,9 @@ bed=path_to_genome_transcriptome_coordinate
 
 cp $tombo/wt_c5rrach_idkmer.bed Tombo.bed
 cp $mines/wt_C5_RRACH.sorted.bed MINES.bed
-cp $nanom6a/wt_chr0.bed Nanom6A_chr0.bed0
-cp $m6anet/wt_c20rrach_idkmer.bed m6Anet.bed
-cp $eligos/wt_rrach_c5.bed ELIGOS.bed
+cp $nanom6a/results_final/wt/wt_chr0.bed Nanom6A_chr0.bed0
+cp $m6anet/run/wt/wt_c20rrach_idkmer.bed m6Anet.bed
+cp $eligos/wt/wt_rrach_c5.bed ELIGOS.bed
 cp $epinano/wt_c5_rrach_sorted.bed Epinano.bed
 
 #transform transcriptomic coordinates to genomic coordinates
