@@ -37,6 +37,8 @@ sed -i '1d' ELIGOS_chr1.bed
 python 1.py Epinano_chr0.bed Epinano_chr1.bed
 sed -i '1d' Epinano_chr1.bed
 
+awk 'BEGIN{OFS="\t"}''NR==FNR{a[$7]=$4;next}{if($7 in a){print $1,$2,$3,a[$7],$5,$6,$7,$8,$9}else{print $1,$2,$3,0,$5,$6,$7,$8,$9}}' Nanom6A_chr0.bed0 Epinano_chr1.bed > Nanom6A_chr1.bed
+
 #*chr1.bed format
 #chr pos0 pos1 scores coverage strand genome_id transcriptome_id motif
 #chr1	4774310	4774311	0.310300	39	-	chr1|4774310|-	ENSMUST00000130201.7|789	AAACT
