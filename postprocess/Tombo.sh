@@ -11,3 +11,5 @@ awk 'BEGIN{OFS=""}{if($9>=5){print $1,"\t",$3,"\t",$5,"\t",$9,"\t",$1,"|",$3}}' 
 awk 'BEGIN{OFS="\t"}{print $1,$2-3,$2+2}' wt_c5rrach_id.bed > wt_1.bed
 bedtools getfasta -fi $ref -bed wt_1.bed -name | awk '{if(NR%2==0){print $0}}' > wt_2.bed
 paste wt_c5rrach_id.bed wt_2.bed > wt_c5rrach_idkmer.bed
+
+#apply the same operation in ko
