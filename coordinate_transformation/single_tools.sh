@@ -40,3 +40,7 @@ sed -i '1d' ELIGOS_chr1.bed
 
 python 1.py Epinano_chr0.bed Epinano_chr1.bed
 sed -i '1d' Epinano_chr1.bed
+
+#*chr1.bed format
+#chr pos0 pos1 scores coverage strand genome_id transcriptome_id motif
+#chr1	4774310	4774311	0.310300	39	-	chr1|4774310|-	ENSMUST00000130201.7|789	AAACT
