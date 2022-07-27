@@ -1,6 +1,7 @@
 #!/bin/bash
 
 m6anet=path_to_m6Anet_results
+ref=path_to_reference_transcriptome
 
 cd $m6anet/run/wt
 awk 'BEGIN{FS=",";OFS=""}{if(NR>1){print $1,"\t",$2+1,"\t",$4,"\t",$3,"\t",$1,"|",$2+1}}' wt.csv | sort -k1,1 -k2,2n -T . > wt_1.txt
