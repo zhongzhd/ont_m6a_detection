@@ -28,16 +28,12 @@ done
 #merge sites derived from multiple transcriptomic coordinates but aligned to the same genomic coordinate
 python 1.py Tombo_chr0.bed Tombo_chr1.bed
 sed -i '1d' Tombo_chr1.bed
-
 python 1.py MINES_chr0.bed MINES_chr1.bed
 sed -i '1d' MINES_chr1.bed
-
 python 1.py m6Anet_chr0.bed m6Anet_chr1.bed
 sed -i '1d' m6Anet_chr1.bed
-
 python 2.py ELIGOS_chr0.bed ELIGOS_chr1.bed
 sed -i '1d' ELIGOS_chr1.bed
-
 python 1.py Epinano_chr0.bed Epinano_chr1.bed
 sed -i '1d' Epinano_chr1.bed
 
