@@ -5,7 +5,7 @@ mines=path_to_MINES_results
 ref=path_to_reference_transcriptome
 wt_fast5=path_to_basecalled_fast5_files
 ko_fast5=path_to_basecalled_fast5_files
-MINES=path_to_MINES_software
+MINES=path_to_MINES_software #cDNA_MINES.py was modified to cDNA_MINES1.py to output results of all RRACH motifs rather than AGACT/GGACH motifs
 
 #obtain input statistical files from Tombo
 cd tombo
@@ -20,7 +20,7 @@ wig2bed < wt.wig > wt.fraction_modified_reads.plus.wig.bed --multisplit=mines
 
 #detect m6A
 cd mines
-python $MINES/cDNA_MINES2.py --fraction_modified $tombo/wt.fraction_modified_reads.plus.wig.bed \
+python $MINES/cDNA_MINES1.py --fraction_modified $tombo/wt.fraction_modified_reads.plus.wig.bed \
 --coverage $tombo/wt.coverage.plus.bedgraph \
 --output wt.bed \
 --ref $ref \
