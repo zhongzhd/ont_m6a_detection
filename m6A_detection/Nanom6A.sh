@@ -28,6 +28,7 @@ python $Nanom6A/predict_sites.py -i results/wt \
 -g $genome \
 -r $bed \
 --cpu 16 \
+--support 5 \
 --model $Nanom6A/bin/model
 
 #apply the same analysis in ko
