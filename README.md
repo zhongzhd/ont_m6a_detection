@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/Guppy-v5.0.7-green)
 ![](https://img.shields.io/badge/Minimap2-v2.17-green)
 ![](https://img.shields.io/badge/samtools-v1.6-green)  
-![](https://img.shields.io/badge/Tombo-v1.5.1-orange)
+[![](https://img.shields.io/badge/Tombo-v1.5.1-orange)](https://github.com/nanoporetech/tombo)
 ![](https://img.shields.io/badge/MINES-v0.0-orange)
 ![](https://img.shields.io/badge/Nanom6A-v2.0-orange)
 ![](https://img.shields.io/badge/m6Anet-v1.0-orange)
