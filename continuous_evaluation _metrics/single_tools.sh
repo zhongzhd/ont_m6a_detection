@@ -34,4 +34,3 @@ cut -f 4 $file > ${file%%chr_cov20.bed}pred.txt
 done
 paste id_label.txt Tombo_pred.txt MINES_pred.txt Nanom6A_pred.txt m6Anet_pred.txt ELIGOS_pred.txt Epinano_pred.txt > id_label_pred.txt
 python ROC_PR.py
-
