@@ -1,9 +1,9 @@
 # ONT m6a detection
 ## dependence
 ![](https://img.shields.io/badge/software-version-blue)  
-![](https://img.shields.io/badge/Guppy-v5.0.7-green)
-![](https://img.shields.io/badge/Minimap2-v2.17-green)
-![](https://img.shields.io/badge/samtools-v1.6-green)  
+[![](https://img.shields.io/badge/Guppy-v5.0.7-green)](https://community.nanoporetech.com/downloads)
+[![](https://img.shields.io/badge/Minimap2-v2.17-green)](https://github.com/lh3/minimap2)
+[![](https://img.shields.io/badge/samtools-v1.6-green)](https://github.com/samtools/samtools)  
 [![](https://img.shields.io/badge/Tombo-v1.5.1-orange)](https://github.com/nanoporetech/tombo)
 [![](https://img.shields.io/badge/MINES-v0.0-orange)](https://github.com/YeoLab/MINES.git)
 [![](https://img.shields.io/badge/Nanom6A-v2.0-orange)](https://github.com/gaoyubang/nanom6A)
