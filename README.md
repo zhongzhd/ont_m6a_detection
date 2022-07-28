@@ -1,4 +1,4 @@
-# ont_m6a_detection
+# ont m6a detection
 ## dependence
 ![](https://img.shields.io/badge/software%2Fpackage-version-blue)  
 ![](https://img.shields.io/badge/Guppy-v5.0.7-green)
