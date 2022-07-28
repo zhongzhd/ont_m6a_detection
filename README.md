@@ -1,6 +1,6 @@
 # ONT m6a detection
 ## dependence
-![](https://img.shields.io/badge/software%2Fpackage-version-blue)  
+![](https://img.shields.io/badge/software-version-blue)  
 ![](https://img.shields.io/badge/Guppy-v5.0.7-green)
 ![](https://img.shields.io/badge/Minimap2-v2.17-green)
 ![](https://img.shields.io/badge/samtools-v1.6-green)  
