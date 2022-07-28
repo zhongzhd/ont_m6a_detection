@@ -10,10 +10,10 @@
 [![](https://img.shields.io/badge/m6Anet-v1.0-orange)](https://github.com/GoekeLab/m6anet)
 [![](https://img.shields.io/badge/Nanocompore-v1.0.0-orange)](https://github.com/tleonardi/nanocompore_paper_analyses)
 [![](https://img.shields.io/badge/Xpore-v2.0-orange)](https://github.com/GoekeLab/xpore)  
-[![](https://img.shields.io/badge/DiffErr-v0.2-green)](https://github.com/bartongroup/differr_nanopore_DRS)
-[![](https://img.shields.io/badge/DRUMMER-v0.0-green)](https://github.com/DepledgeLab/DRUMMER/)
-[![](https://img.shields.io/badge/ELIGOS-v2.0.1-green)](https://gitlab.com/piroonj/eligos2)
-[![](https://img.shields.io/badge/Epinano-v1.2.0-green)](https://github.com/novoalab/EpiNano)
+[![](https://img.shields.io/badge/DiffErr-v0.2-blue)](https://github.com/bartongroup/differr_nanopore_DRS)
+[![](https://img.shields.io/badge/DRUMMER-v0.0-blue)](https://github.com/DepledgeLab/DRUMMER/)
+[![](https://img.shields.io/badge/ELIGOS-v2.0.1-blue)](https://gitlab.com/piroonj/eligos2)
+[![](https://img.shields.io/badge/Epinano-v1.2.0-blue)](https://github.com/novoalab/EpiNano)
 
 ## 1 preprocess:
 basecalling and alignment
