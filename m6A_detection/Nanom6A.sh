@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#dependences
+#dependencies
 #bedtools	v2.29.2
 #samtools	1.3.1
 #minimap2	2.17-r941
