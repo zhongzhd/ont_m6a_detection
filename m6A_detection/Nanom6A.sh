@@ -1,5 +1,19 @@
 #!/bin/bash
 
+#dependences
+#bedtools	v2.29.2
+#samtools	1.3.1
+#minimap2	2.17-r941
+#python	3.7.3
+#h5py	2.9.0
+#statsmodels	0.10.0
+#joblib	0.16.0
+#xgboost	0.80
+#pysam	0.16.0.1
+#tqdm	4.39.0
+#pycairo	1.19.1
+#scikit-learn	0.22
+
 Nanom6A=path_to_Nanom6A_software
 wt_fast5=path_to_basecalled_fast5_files
 ko_fast5=path_to_basecalled_fast5_files
