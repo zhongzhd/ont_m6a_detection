@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#dependencies:
+#seaborn
+#scipy
+#pandas
+#numpy
+#biopython
+#matplotlib
+#statsmodels
+
 DRUMMER=path_to_DRUMMER_software
 ref=path_to_reference_transcriptome
 txt=path_to_transcript_list
