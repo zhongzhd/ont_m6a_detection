@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#dependencies:
+#python 3.7.0
+#pandas 0.23.4
+#pybedtools 0.8.0
+#numpy* 1.16.4
+#scikit-learn 0.19.2
+#bedops 2.4.35
+
 tombo=path_to_Tombo_results
 mines=path_to_MINES_results
 ref=path_to_reference_transcriptome
