@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#dependencies：
+#python 3.8.0
+
 m6anet=path_to_m6Anet_results
 
 #data preparation
