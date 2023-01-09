@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#dependencies：
+#python 3.8.0
+
 ref=path_to_reference_transcriptome
 wt_fastq=path_to_fastq_file
 ko_fastq=path_to_fastq_file
