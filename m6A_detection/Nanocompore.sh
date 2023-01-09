@@ -1,5 +1,20 @@
 #!/bin/bash
 
+#dependencies:
+#python 3.7.3
+#joblib 0.13.2
+#numpy 1.17.2
+#pandas 0.24.2
+#pyfaidx 0.5.5.2
+#pyparsing 2.4.2
+#python-dateutil 2.8.0
+#pytz 2019.2
+#pyyaml 5.1.2
+#scikit-learn 0.21.3
+#scipy 1.2.2
+#seaborn 0.9.0
+#tqdm 4.36.1
+
 ref=path_to_reference_transcriptome
 bed12=path_to_transcriptome_annotation
 wt_fastq=path_to_fastq_file
