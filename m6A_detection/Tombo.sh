@@ -1,5 +1,15 @@
 #!/bin/bash
 
+#dependencies:
+#h5py < 3
+#numpy < 1.20
+#scipy
+#cython
+#setuptools >= 18.0
+#mappy >= 2.10
+#future
+#tqdm
+
 ref=path_to_reference_transcriptome
 wt_fast5=path_to_basecalled_fast5_files
 ko_fast5=path_to_basecalled_fast5_files
