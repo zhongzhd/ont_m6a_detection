@@ -1,5 +1,16 @@
 #!/bin/bash
 
+#dependencies：
+#python 3.6
+#pysam 0.13
+#pandas 0.23.4
+#pybedtools 0.8.0
+#bedtools 2.25
+#rpy2 2.8.5
+#r-base 3.4.1
+#tqdm 4.40.2
+#numpy 1.11.3
+
 ref=path_to_reference_transcriptome
 bed=path_to_detection_region_bed
 wt_bam=path_to_bam_file
