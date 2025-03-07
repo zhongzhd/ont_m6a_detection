@@ -30,6 +30,6 @@ eligos2 pair_diff_mod -tbam $wt_bam \
 --max_depth 5000000 \
 --min_depth 5 \
 --esb 0 \
---oddR 1 \
+--oddR 0 \
 --pval 1 \
 -t 16
