@@ -31,7 +31,7 @@ eligos2 rna_mod -i $wt_bam \
 --max_depth 2000000 \
 --min_depth 5 \
 --esb 0 \
---oddR 1 \
+--oddR 0 \
 --pval 1 \
 -t 16
 
