@@ -10,7 +10,7 @@
 [![](https://img.shields.io/badge/Nanom6A-v2.0-orange)](https://github.com/gaoyubang/nanom6A)
 [![](https://img.shields.io/badge/m6Anet-v1.0-orange)](https://github.com/GoekeLab/m6anet)
 [![](https://img.shields.io/badge/Nanocompore-v1.0.0-orange)](https://github.com/tleonardi/nanocompore_paper_analyses)
-[![](https://img.shields.io/badge/Xpore-v2.0-orange)](https://github.com/GoekeLab/xpore)  
+[![](https://img.shields.io/badge/xPore-v2.0-orange)](https://github.com/GoekeLab/xpore)  
 [![](https://img.shields.io/badge/DiffErr-v0.2-blue)](https://github.com/bartongroup/differr_nanopore_DRS)
 [![](https://img.shields.io/badge/DRUMMER-v0.0-blue)](https://github.com/DepledgeLab/DRUMMER/)
 [![](https://img.shields.io/badge/ELIGOS-v2.0.1-blue)](https://gitlab.com/piroonj/eligos2)
